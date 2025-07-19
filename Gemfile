@@ -4,7 +4,7 @@ ruby '> 2.5.0'
 
 group :development do
   gem 'rake', '13.0.6'
-  gem 'jekyll', '4.2.2'
+  gem 'jekyll', '4.3.0'
   gem 'compass', '1.0.3'
   gem 'sass-globbing', '1.1.5'
   gem 'stringex', '2.8.5'
@@ -16,10 +16,10 @@ group :jekyll_plugins do
   gem 'jekyll-paginate', '1.1.0'
   gem 'jekyll-sitemap', '1.4.0'
   gem 'jekyll-commonmark', '1.4.0'
-  gem 'jekyll-toc', '0.17.1'
+  gem 'jekyll-toc', '0.18.0'
 end
 
-gem 'sinatra', '2.2.1'
+gem 'sinatra', '2.2.2'
 gem 'nokogiri', '1.13.7'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
